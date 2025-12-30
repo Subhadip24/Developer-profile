@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subhadip Mondal | Developer Portfolio</title>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary: #00d2ff;
+            --accent: #fbbf24;
+            --bg: #0f172a;
+            --card-bg: rgba(30, 41, 59, 0.7);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; }
+        body { 
+            font-family: 'Inter', sans-serif; 
+            background-color: var(--bg); 
+            color: white; 
+            line-height: 1.6;
+            background-image: radial-gradient(circle at 2px 2px, rgba(255,255,255,0.05) 1px, transparent 0);
+            background-size: 40px 40px;
+        }
+
+        .container { max-width: 1000px; margin: 0 auto; padding: 0 20px; }
+
+        /* Hero Section */
+        header {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            border: 4px solid var(--primary);
+            margin-bottom: 20px;
+            box-shadow: 0 0 30px rgba(0, 210, 255, 0.3);
+        }
+
+        h1 { font-size: 3.5rem; margin-bottom: 10px; }
+        .type-wrap { font-size: 1.5rem; color: var(--primary); font-family: monospace; height: 30px; }
+
+        /* Section Styling */
+        section { padding: 100px 0; }
+        h2 { font-size: 2.5rem; margin-bottom: 40px; border-left: 5px solid var(--primary); padding-left: 15px; }
+
+        .glass-card {
+            background: var(--card-bg);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.1);
+            padding: 30px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+
+        /* Education Timeline */
+        .timeline-item {
+            border-left: 2px solid var(--primary);
+            padding-left: 20px;
+            margin-bottom: 30px;
+            position: relative;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -9px;
+            top: 0;
+            width: 16px;
+            height: 16px;
+            background: var(--primary);
+            border-radius: 50%;
+        }
+
+        /* Skills */
+        .skill-box { margin-bottom: 20px; }
+        .skill-info { display: flex; justify-content: space-between; margin-bottom: 8px; }
+        .bar-bg { background: rgba(255,255,255,0.1); height: 10px; border-radius: 5px; }
+        .bar-fill { height: 100%; background: var(--primary); border-radius: 5px; width: 0; transition: 2s width; }
+
+        /* Languages & Info */
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .tag { background: rgba(0, 210, 255, 0.1); color: var(--primary); padding: 5px 15px; border-radius: 20px; display: inline-block; margin: 5px; font-size: 0.9rem; border: 1px solid var(--primary); }
+
+        footer { text-align: center; padding: 50px; background: #070d18; }
+        .contact-link { color: var(--primary); text-decoration: none; margin: 10px; display: inline-block; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="YOUR_PHOTO_URL_HERE" alt="Subhadip Mondal" class="profile-img">
+        <h1>Subhadip Mondal</h1>
+        <div class="type-wrap"><span id="typed"></span></div>
+        <p style="margin-top:20px; max-width: 600px; opacity: 0.8;">
+            I am a 20-year-old engineering graduate. I am a hard worker, honest, and responsible person. 
+            My hobby is drawing and learning new things.
+        </p>
+        <a href="#contact" class="tag" style="margin-top:30px; padding: 10px 25px;">Contact Me</a>
+    </header>
+
+    <div class="container">
+        
+        <section id="education">
+            <h2>Education Background</h2>
+            <div class="glass-card">
+                <div class="timeline-item">
+                    <h3>Techno India University</h3>
+                    <p>Student of Computer Science Engineering</p>
+                    <small>SIM Participants</small>
+                </div>
+                <div class="timeline-item">
+                    <h3>Zoom International School</h3>
+                    <p>Class Captain | Studious</p>
+                    <small>2010 - 2022</small>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skill & Interest</h2>
+            <div class="glass-card">
+                <div class="skill-box">
+                    <div class="skill-info"><span>Web Design</span><span>94%</span></div>
+                    <div class="bar-bg"><div class="bar-fill" data-percent="94%"></div></div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-info"><span>Troubleshooting</span><span>82%</span></div>
+                    <div class="bar-bg"><div class="bar-fill" data-percent="82%"></div></div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-info"><span>Programming</span><span>67%</span></div>
+                    <div class="bar-bg"><div class="bar-fill" data-percent="67%"></div></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="grid">
+            <section>
+                <h2>Achievements</h2>
+                <div class="glass-card">
+                    <ul style="list-style: none;">
+                        <li><i class="fas fa-trophy" style="color:var(--accent)"></i> Built own AI agent in BHARAT GPT</li>
+                        <li><i class="fas fa-check-circle" style="color:var(--primary)"></i> Web Design Contest Participant</li>
+                        <li><i class="fas fa-check-circle" style="color:var(--primary)"></i> Programming Contest Participation</li>
+                        <li><i class="fas fa-certificate" style="color:var(--primary)"></i> SIT 1ST Cleared (KNCWVIA)</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2>Languages</h2>
+                <div class="glass-card">
+                    <span class="tag">English</span>
+                    <span class="tag">Hindi</span>
+                    <span class="tag">Bengali</span>
+                    <span class="tag">Marathi</span>
+                </div>
+            </section>
+        </div>
+
+        <section id="contact" style="text-align: center;">
+            <h2>Reach Me At</h2>
+            <div class="glass-card">
+                <p><i class="fas fa-map-marker-alt"></i> Durgapur</p>
+                <p><i class="fas fa-phone"></i> 6291418941</p>
+                <p><i class="fas fa-envelope"></i> subhadipmondal783@gmail.com</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Subhadip Mondal. Designed with Passion.</p>
+    </footer>
+
+    <script>
+        // Typing Effect
+        new Typed('#typed', {
+            strings: ['Computer Science Engineer', 'Web Designer', 'AI Developer', 'Creative Thinker'],
+            typeSpeed: 60,
+            backSpeed: 40,
+            loop: true
+        });
+
+        // Scroll Revel Animations
+        ScrollReveal().reveal('.glass-card', { 
+            delay: 200, 
+            distance: '50px', 
+            origin: 'bottom',
+            interval: 100 
+        });
+
+        // Animate Skill Bars on Scroll
+        window.addEventListener('scroll', () => {
+            const bars = document.querySelectorAll('.bar-fill');
+            bars.forEach(bar => {
+                const rect = bar.getBoundingClientRect();
+                if(rect.top < window.innerHeight) {
+                    bar.style.width = bar.getAttribute('data-percent');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
