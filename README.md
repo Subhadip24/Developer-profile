@@ -28,7 +28,7 @@ I am a 20-year-old passionate Engineering student with a strong focus on creatin
 ## 🎓 Education
 
 - **Techno India University** *Bachelor of Computer Science Engineering* (Current)  
-  *Focus: Software Development & SIM Participation*
+  *Focus: Software Development & SIH Participation*
 
 - **Zoom International School** (2010 - 2022)  
   *Class Captain & Academic Achievement Awardee*
