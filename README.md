@@ -36,8 +36,8 @@ I am a 20-year-old passionate Engineering student with a strong focus on creatin
 ---
 
 ## 📊 GitHub Stats
-![Subhadip's GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight)
+![Subhadip's GitHub stats](https://github-readme-stats.vercel.app/api?username=Subhadip24&show_icons=true&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Subhadip24&layout=compact&theme=tokyonight)
 
 ---
 
