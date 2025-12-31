@@ -21,7 +21,7 @@ I am a 20-year-old passionate Engineering student with a strong focus on creatin
 - 🤖 **AI Innovation:** Built and deployed a custom AI agent using **BHARAT GPT**.
 - 🎨 **Web Design:** Regular participant and high-scorer in University-level design contests.
 - 💻 **Competitive Coding:** Active participant in programming challenges at Techno India University.
-- 📜 **Certification:** Successfully cleared **SIT 1ST (KNCWVIA)**.
+- 📜 **Certification:** Successfully cleared **SIH 1ST ROUND**.
 
 ---
 
@@ -30,7 +30,7 @@ I am a 20-year-old passionate Engineering student with a strong focus on creatin
 - **Techno India University** *Bachelor of Computer Science Engineering* (Current)  
   *Focus: Software Development & SIH Participation*
 
-- **Zoom International School** (2010 - 2022)  
+- **Zoom International School** (2010 - 2024)  
   *Class Captain & Academic Achievement Awardee*
 
 ---
